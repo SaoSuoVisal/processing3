@@ -10,7 +10,7 @@ void setup(){
   size(640, 320); //Standard screen
   tts = new TTS();
   cp5 = new ControlP5(this);
-  
+  tts.setPitch(0); //SET different tones
   btn = cp5.addButton("st")
            .setColorBackground(#FC051A)
            .setPosition(100, 100)

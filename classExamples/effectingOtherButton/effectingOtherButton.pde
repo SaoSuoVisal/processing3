@@ -21,5 +21,6 @@ void setup(){
 void draw(){}
 
 void button1(){ //one click that changes other part of the button
-  btn2.setColorBackground(#000000); 
+  btn2.setColorBackground(#000000);
+  println("Buton 2"); // = console.log()
 }
